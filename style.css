@@ -1,0 +1,106 @@
+@charset "utf-8";
+    header{
+        padding:2px;
+        width:100%;
+        z-index:-1;
+       /* 背景色 */
+        background-color:#1B1719;
+       /* 文字の色 */
+        color:white;
+       /* 文字の大きさ */
+        font-size:40px;
+       /* フォント */
+        font-family:Big Caslon;
+       /*行間間隔*/
+        line-height: 0.4;
+        padding-top: 20px;
+        padding-left: 10px;
+     }
+     body{
+        background-color:#B2ADB0;
+        margin:0;
+        font-size:18px;
+        font-family: 筑紫A丸ゴシック;
+     }
+     /*ヘッダーの行間*/
+     .title{
+        line-height:1px
+     }
+     .menu a{
+        background-color:#98876B;
+        font-size:25px;
+        font-weight:bold;
+        color:#442F22;
+        text-decoration: none;
+        padding: 15px 35px;
+        /* width: 100%; */
+        border-radius: 80px;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+     }
+     .menu2 a{
+      background-color:#98876B;
+        font-size:25px;
+        font-weight:bold;
+        color:#442F22;
+        text-decoration: none;
+        padding: 15px 35px;
+        /* width: 100%; */
+        border-radius: 80px;
+        position: absolute;
+        right: 170px;
+        top: 30px;
+     }
+     .menu a:hover{
+      background-color:#d8c3a2;
+      color:#997158;
+     }
+     .menu2 a:hover{
+      background-color:#d8c3a2;
+      color:#997158;
+     }
+     .footer{
+      background-color: #1B1719;
+      color:white;
+      font-size: 10px;
+      padding-top: 50px;
+    
+      /* フッターの位置 */
+      position: absolute;
+      bottom:0px;
+      position: relative;
+     
+      width:100%;
+     }
+     .image-container{
+        display:flex;
+        justify-content: space-around;
+        gap:1em;
+        margin:1em;
+     }
+    .image-container a{ 
+         text-decoration: none; 
+         color:#442F22;
+
+         font-weight:bold;
+    }
+    .maintitle{
+      letter-spacing: 5px;
+      color:#1B1719;
+      margin-left:20px
+    }
+    .main{
+      color:#1B1719;
+      margin-left:20px;
+      line-height: 1px;
+    }
+    .portfolio-text{
+   font-weight:bold;
+   line-height: 1;
+   font-size:1.5em;
+    }
+    ul {
+  display: flex;
+  gap:1em;
+}
